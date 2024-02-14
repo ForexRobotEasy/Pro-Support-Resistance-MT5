@@ -1,0 +1,64 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                              Pro Support Resistance MT5          |
+//|                                                  forexroboteasy.com |
+//|                                                  Forex Robot Easy Team |
+//+------------------------------------------------------------------+
+
+#property copyright 'forexroboteasy.com'
+#property link      'forexroboteasy.com'
+
+// Support Level Detection Function
+void DetectSupportLevel()
+{
+    // TODO: Implement support level detection algorithm
+    // Determine appropriate support level based on price declines
+}
+
+// Resistance Level Detection Function
+void DetectResistanceLevel()
+{
+    // TODO: Implement resistance level detection algorithm
+    // Determine appropriate resistance level based on price surges
+}
+
+// Confirmation Indicator Function
+void ShowConfirmationIndicator()
+{
+    // TODO: Implement visual indicator for confirmed support and resistance levels
+    // Display indicator on the trading platform
+}
+
+// Retest Detection Function
+void DetectRetest()
+{
+    // TODO: Implement retest detection algorithm
+    // Determine when a retest of support or resistance level occurs based on price movement
+}
+
+// User Interface Function
+void ShowUserInterface()
+{
+    // TODO: Implement user-friendly interface for the tool
+    // Provide clear instructions and customization options for traders
+}
+
+// Main Program
+void OnStart()
+{
+    // Call necessary functions for support and resistance detection
+    DetectSupportLevel();
+    DetectResistanceLevel();
+    
+    // Call function to show confirmation indicator
+    ShowConfirmationIndicator();
+    
+    // Call function to detect retests
+    DetectRetest();
+    
+    // Call function to show user interface
+    ShowUserInterface();
+    
+    // TODO: Add logical conclusion code here
+}
+
